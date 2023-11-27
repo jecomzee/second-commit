@@ -1,0 +1,78 @@
+.container {
+ padding: 20%;
+}
+.header-styling {
+ background-color: aquamarine;
+ width: 100%;
+ text-align: center;
+ padding-top: 0.1px;
+ padding-bottom: 0.1px;
+ margin-bottom: 12px;
+ border-radius: 20px;
+}
+.left-div-style {
+ display: flex;
+ background-color: blueviolet;
+ width: 70%;
+ height: 200px;
+ border-radius: 10px;
+}
+.right-div-style {
+ background-color: brown;
+ width: 28%;
+ height: 200px;
+ border-radius: 10px;
+}
+.flex-container{
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 12px;
+}
+
+.footer-styling {
+ background-color: navy;
+ width: 100%;
+ text-align: center;
+ padding-top: 12px;
+ padding-bottom: 12px;
+ border-radius: 20px;
+}
+
+/* flexbox 2 */
+.flex-container-assign4 {
+ display: flex;
+ background-color: lightgrey;
+ width: 400px;
+ margin-left: 100px;   
+}
+.flex-container-assign4 > div {
+ background-color:white;
+ margin: 10px;
+ padding: 10px;
+ font-size: 15px;
+ text-align: center;
+}
+
+.semi-container1 {
+display: flex;
+text-align: center;
+width: 280px;
+color: white;
+position: relative;
+
+}
+
+.article {
+position: absolute;
+bottom: 60px;
+left:100px;
+}
+.semi-container1 > div  {
+background-color:rgb(243, 239, 8);
+display: flex;
+width: 80px;
+padding: 15px;
+align-self: flex-end;
+margin: 5px;
+color: white; 
+}

@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav li {
+  list-style: none;
+  justify-content: space-between;
+  display: inline-flex;
+  background-color: ;
+}
+#flex-container {
+  display: flex;
+  color: aqua;
+  background-color: blueviolet;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+#flex-container > div {
+  background-color: brown;
+  padding: 30px;
+  margin: 30px;
+  font-size: 30px;
+  width: 120px;
+  height: 100px;
+}

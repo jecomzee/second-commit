@@ -1,0 +1,51 @@
+body {
+ background-color: rgb(191, 219, 219);
+ color: black;
+
+}
+
+table {
+ width: 100%;
+ 
+}
+table, th, td {
+
+ border: 1px solid black;
+ border-collapse: collapse;
+}
+th, td {
+ padding: 10px
+}
+td {
+ /* padding-left: 30px; */
+ text-align: center;
+}
+/* nth-child */
+tr:nth-child(odd) {
+ background-color: antiquewhite;
+}
+tr:nth-child(even) {
+ background-color: gold;
+}
+th {
+ font-size: 20px;
+}
+#lagos-city {
+ background-color: rosybrown;
+ color: aliceblue;
+}
+.city {
+ background-color: blueviolet;
+}
+.pizza {
+ color: brown;
+}
+/* start of form styling */
+textarea {
+  resize: none;
+}
+/* end of form styling */
+
+.clear-field-button {
+  background-color: gray;
+}
